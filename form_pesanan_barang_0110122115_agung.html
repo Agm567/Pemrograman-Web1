@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesan Barang </title>
+  </head>
+  <body>
+    <nav style="background-color: #bbbbbb; padding: 15px;">
+              <h1 style="font-size: small; margin: 1px; padding: 3px; text-align: center; 
+              border-top: 3px solid #0000;">A Web Page</h1>
+              <div class="placeholder" style="text-align: center;">
+                <label for="textarea"></label>
+                <textarea name="character" id="textarea" cols="150" rows="1"
+                 placeholder="http//"></textarea></div>
+      </nav>
+      <main style="background-color: lightgray;">
+      <table style="width: 80%; border: 1px black; padding: 2px; 
+      margin-inline: 100px; border-style: solid; background-color: white;">
+            <tr style="text-align: center;">
+                <th>Home</th>
+                <th>|</th>
+                <th>Generate Link</th>
+                <th>|</th>
+                <th>Transaction History</th>
+                <th>|</th>
+                <th>Policy</th>
+                <th>|</th>
+                <th>Logout</th>
+            </tr>
+            </table>
+            <br />
+            <img src="gallery.png" width="250" height="250" alt="">
+            <input type="submit" value="Upload Picture">
+            <form>
+           <div>
+          <div>
+         <div>
+         <label for="title">Title Here :</label>
+         </div>
+        <div>
+          <input type="text" name="title" id="title" placeholder="MacBook Air £800">
+             </div>
+                <div>
+                  <div>
+                   <div>
+                       <label for="desc">Description :</label>
+                    </div>
+                    <div>
+                        <textarea name="desc" id="desc" cols="40" rows="3"></textarea><br/>
+                      </div>
+                <label for="accno">Account Number :</label></div>
+                <input type="text" name="accno" id="accno" placeholder="123-456-789-0">
+                <p>Bank: <input type="text" list="bank" name="bank">
+                <datalist id="bank">
+                    <option value="HSBC"></option>
+                    <option value="MANDIRI"></option>
+                    <option value="BNI"></option>
+                    <option value="BRI"></option>
+                </datalist>
+                <br />
+                <label for="acchl">Account Holder:</label><br/>
+                <input type="text" name="acchl" id="acchl" placeholder="Name Here">
+            </div>
+            <div>
+                <div>
+                    <label for="trans">Transaction :</label>
+                </div>
+                <div>
+                    <select id="trans" name="trans">
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div></div>
+                <div>
+                    <label id="caption">
+                      *if the transaction in for 3 person, choose 3 from dropdown list</label>
+                </div>
+            </div>
+            <div>
+                <div></div>
+                <div>
+                    <label>
+                        <input type="checkbox" id="chk1" name="chk1">
+                        <span style="user-select: none; color: green">Send to Mobile Phone</span>
+                    </label>
+                </div>
+            </div>
+            <div>
+                
+                <div>
+                    <label>
+                        <input type="checkbox" id="chk2" name="chk2">
+                        <span style="user-select: none; color: green">Send to Email</span>
+                    </label>
+                </div>
+                    <label for="stmp">Send To Mobile Phone :</label>
+                </div>
+                    <input type="text" id="stmp" name="stmp" placeholder="1234567890, 1234567891">
+                </div>
+            </div>
+                <div>
+                    <label for="stem">Send to Email :</label>
+                </div>
+                    <input type="text" id="stem" name="stem"
+                     placeholder="mfmm2g13@soton.ac.uk, fys_06@yahoo.com">
+                    <br />
+                    <br />
+                    <input type="submit" value="Generate Nabr Link" style="background-color: darkgreen; color: white;">
+            </form>
+  </main>
+</body>
+</html>
