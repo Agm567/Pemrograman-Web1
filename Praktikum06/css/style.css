@@ -1,0 +1,29 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+#header{
+    background-color: burlywood;
+    padding: 10px;
+}
+blockquote {
+    text-align: center;
+    background-color: yellow;
+}
+img{
+    width:20%;
+}
+.link{
+    text-align:center;
+    padding-top: 10px;
+}
+.jawa{
+    color: rgb(43, 49, 226);
+    font-size: xx-large;
+}
+#soekarno{
+    font-style: italic;
+}
